@@ -1,0 +1,60 @@
+2025-09-22 23:25:57,033 - backend - INFO - Enhanced AI Interview Voicebot backend initialized
+2025-09-22 23:27:36,608 - backend - INFO - Enhanced AI Interview Voicebot backend initialized
+2025-09-22 23:28:22,625 - backend - INFO - Starting pipeline: voice=3gsg3cxXyFLcGIfNbM6C, speed=1.0
+2025-09-22 23:28:22,637 - backend - INFO - Saved audio: intermediate_audio/recordings\audio_1758563902625.wav (407526 bytes)
+2025-09-22 23:28:22,651 - backend - INFO - Audio validation passed: 4.62s, 0.39MB
+2025-09-22 23:28:28,657 - backend - INFO - Transcription completed in 6012ms
+2025-09-22 23:28:30,783 - backend - INFO - Cached response for key: c4aea5cf...
+2025-09-22 23:28:30,783 - backend - INFO - LLM completed in 2119ms
+2025-09-22 23:28:30,784 - backend - WARNING - Could not resolve ElevenLabs voice, using provided value '3gsg3cxXyFLcGIfNbM6C': voices() got an unexpected keyword argument 'api_key'
+2025-09-22 23:28:35,883 - backend - INFO - Audio converted: 282167 bytes -> intermediate_audio/tts\tts_1758563915406.wav
+2025-09-22 23:28:35,895 - backend - INFO - Cached response for key: a80fc7af...
+2025-09-22 23:28:35,895 - backend - INFO - TTS completed in 5119ms: intermediate_audio/tts\tts_1758563915406.wav
+2025-09-22 23:28:35,895 - backend - INFO - Pipeline completed in 13272ms total
+2025-09-22 23:28:35,895 - backend - INFO - Avg times - Transcription: 6012ms, LLM: 2119ms, TTS: 5120ms, Cache hit rate: 0.0%
+2025-09-22 23:53:48,024 - backend - INFO - Enhanced AI Interview Voicebot backend initialized
+2025-09-22 23:54:00,213 - backend - INFO - Starting pipeline: voice=3gsg3cxXyFLcGIfNbM6C, speed=1.0
+2025-09-22 23:54:00,213 - backend - ERROR - Failed to save audio file: stat: path should be string, bytes, os.PathLike or integer, not tuple
+2025-09-22 23:54:00,213 - backend - ERROR - Pipeline error: stat: path should be string, bytes, os.PathLike or integer, not tuple
+Traceback (most recent call last):
+  File "F:\Books\Python\ACTUAL CODES\PROJECTS\voicebot_genai\backend.py", line 464, in process_audio_pipeline
+    recording_path = save_audio_file(audio_filepath)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Books\Python\ACTUAL CODES\PROJECTS\voicebot_genai\backend.py", line 249, in save_audio_file
+    shutil.copy2(tmp_path, saved_path)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py", line 448, in copy2
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py", line 235, in copyfile
+    if _samefile(src, dst):
+       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.2544.0_x64__qbz5n2kfra8p0\Lib\shutil.py", line 212, in _samefile
+    return os.path.samefile(src, dst)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen genericpath>", line 100, in samefile
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not tuple
+2025-09-22 23:55:41,217 - backend - INFO - Enhanced AI Interview Voicebot backend initialized
+2025-09-22 23:55:58,923 - backend - INFO - Saved numpy audio -> F:\Books\Python\ACTUAL CODES\PROJECTS\voicebot_genai\intermediate_audio\recordings\tmpxxn6dvct.wav
+2025-09-22 23:55:58,924 - backend - INFO - Starting pipeline: voice=3gsg3cxXyFLcGIfNbM6C, speed=1.0
+2025-09-22 23:55:58,938 - backend - INFO - Saved audio: intermediate_audio/recordings\audio_1758565558924.wav (301688 bytes)
+2025-09-22 23:55:58,953 - backend - INFO - Audio validation passed: 3.42s, 0.29MB
+2025-09-22 23:56:05,128 - backend - INFO - Transcription completed in 6175ms
+2025-09-22 23:56:07,327 - backend - INFO - Cached response for key: a261a92b...
+2025-09-22 23:56:07,328 - backend - INFO - LLM completed in 2198ms
+2025-09-22 23:56:07,328 - backend - WARNING - Could not resolve ElevenLabs voice, using provided value '3gsg3cxXyFLcGIfNbM6C': voices() got an unexpected keyword argument 'api_key'
+2025-09-22 23:56:12,763 - backend - INFO - Audio converted: 323963 bytes -> intermediate_audio/tts\tts_1758565572297.wav
+2025-09-22 23:56:12,778 - backend - INFO - Cached response for key: d406c975...
+2025-09-22 23:56:12,780 - backend - INFO - TTS completed in 5451ms: intermediate_audio/tts\tts_1758565572297.wav
+2025-09-22 23:56:12,780 - backend - INFO - Pipeline completed in 13856ms total
+2025-09-22 23:56:12,781 - backend - INFO - Avg times - Transcription: 6175ms, LLM: 2198ms, TTS: 5452ms, Cache hit rate: 0.0%
+2025-09-23 00:27:39,439 - backend - INFO - Enhanced AI Interview Voicebot backend initialized
+2025-09-23 00:31:28,671 - backend - INFO - Saved numpy audio -> F:\Books\Python\ACTUAL CODES\PROJECTS\voicebot_genai\intermediate_audio\recordings\tmpb9gsuqkd.wav
+2025-09-23 00:31:28,671 - backend - INFO - Starting pipeline: voice=3gsg3cxXyFLcGIfNbM6C, speed=1.0
+2025-09-23 00:31:28,694 - backend - INFO - Saved audio: intermediate_audio/recordings\audio_1758567688671.wav (285812 bytes)
+2025-09-23 00:31:28,712 - backend - INFO - Audio validation passed: 3.24s, 0.27MB
+2025-09-23 00:31:34,653 - backend - INFO - Transcription completed in 5941ms
+2025-09-23 00:31:34,653 - backend - INFO - Cache hit for key: a261a92b...
+2025-09-23 00:31:34,653 - backend - INFO - LLM cache hit
+2025-09-23 00:31:34,653 - backend - INFO - Cache hit for key: d406c975...
+2025-09-23 00:31:34,653 - backend - INFO - TTS cache hit: cache\d406c975e073596aa0c1f6919a165a86.wav
+2025-09-23 00:31:34,653 - backend - INFO - Pipeline completed in 5986ms total
+2025-09-23 00:31:34,653 - backend - INFO - Avg times - Transcription: 5941ms, LLM: 0ms, TTS: 1ms, Cache hit rate: 100.0%
